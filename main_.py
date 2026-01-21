@@ -6,7 +6,7 @@ max_history = 50
 dpg.create_context()
 
 with dpg.font_registry():
-    with dpg.font("/home/nigger/Downloads/Fonts/CascadiaCode/CaskaydiaCoveNerdFontMono-SemiBold.ttf", 16) as default_font:
+    with dpg.font("CaskaydiaCoveNerdFontMono-SemiBold.ttf", 16) as default_font:
         dpg.add_font_range_hint(dpg.mvFontRangeHint_Default)
         dpg.add_font_range(0x0020, 0x00FF)  # Basic Latin + Latin Supplement
         dpg.add_font_range(0x2000, 0x206F)  # General Punctuation
